@@ -1,0 +1,79 @@
+<html>
+<head>
+	<h2> **** OPCIONES ITERATIVAS MENU****  </h2>
+	<script src="page.js"></script>
+</head>
+<body>
+	
+<nav>
+	
+		<ul>
+			<title>Menu Iterativo</title>
+	<li><a href="/">Universidad</a></li>
+	
+
+	<li><a href="/Alumno">Alumno</a></li>
+	<li><a href="https://www.youtube.com/watch?v=mOKqNxN4jWM&index=27&list=RDEM2Sx7fivM5sXUnOe2rOqneQ">Alumno</a></li>
+	
+	<li><a href="/Carnet">Carnet</a></li>
+	<li><a href="https://visionmedia.github.io/page.js/">Carnet</a></li>
+	
+	<li><a href="/Carrera">Carrera</a></li>
+	<li><a href="http://www.movistar.com.ni/">Carrera</a></li>
+
+	<li><a href="/Tutor">Tutor</a></li>
+	<li><a href="https://www.facebook.com/">Tutor</a></li>
+
+	</ul>
+</nav>	
+
+
+<p></p>
+
+<script >
+page('/', index)
+page('/Alumno', Alumno)
+page('/Carnet', Carnet)
+page('/Carrera', Carrera)
+page('/Tutor', Tutor)
+
+page()
+
+function index(){
+	document.querySelector('p')
+	.textContent = 'Upoli'
+
+}
+
+
+function Alumno(){
+	document.querySelector('p')
+	.textContent = 'Cristina Salablanca'
+}
+
+
+function Carnet(){
+	document.querySelector('p')
+	.textContent = " 1311206 "
+}
+
+function Carrera()
+{
+	document.querySelector('p')
+	.textContent = 'Ing Computacion'
+
+}
+
+function Tutor(){
+	document.querySelector('p')
+	.textContent = 'Enmanuel Jarquin'
+}
+
+
+</script>
+</body>
+
+</html>
+
+
+
